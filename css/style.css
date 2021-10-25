@@ -1,0 +1,149 @@
+body{
+
+  background: linear-gradient(90deg , var(--primary) 40%, var(--secondary) 75%);
+
+}
+
+:root{
+  --primary:rgba(205, 242, 202,1);
+  --secondary:rgba(249, 243, 223,1);
+  --ternary:rgb(52, 103, 81);
+  --binary:rgb(206, 229, 208);
+  --nano:rgb(47, 93, 98);
+  --hover:rgb(80, 109, 132);
+}
+#nav-bar{
+  background-color: var(--nano);
+  font-size: 1.3rem;
+  position: sticky;
+  top: 0;
+}
+
+.nav-item a{
+  width: 100px;
+  margin: 50px;
+  place-content:center;
+  color:white;
+  text-decoration: none;
+}
+
+#top {
+  background-color: var(--binary);
+  display: grid;
+  place-content:center;
+}
+
+#intro{
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.2rem;
+  display: relative ;
+  place-items: center;
+  place-content: center
+}
+.container{
+  display: flex;
+  place-items: center;
+  place-content: center
+}
+
+div.vector-img{
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+}
+div.intro-part{
+  place-items:center;
+  text-align: center;
+  color: var(--ternary)
+}
+
+h2{
+  text-align: center;
+  color:var(--ternary);
+  font-family: 'Patrick Hand', cursive;
+}
+
+.col {
+  text-align: center;
+  color: rgb(52, 103, 81);
+  margin: 10px 120px 10px 120px;
+}
+
+@media (max-width: 576px) {
+  div.intro{
+    display: block;
+    text-align: center;
+  }
+
+  .container{
+    display: block;
+    place-items: center;
+    place-content: center
+  }
+  a{
+    align-items: center;
+  }
+}
+
+@media (max-width: 726px)
+{
+  .container{
+    display: block;
+    place-items: center;
+    place-content: center
+  }
+}
+
+td , a{
+  margin: 40px;
+  padding: 10px;
+  color: var(--ternary);
+}
+
+a:hover{
+color: var(--hover);
+}
+
+.col:hover{
+  color: var(--hover);
+}
+
+table{
+  margin: 50px;
+}
+
+.vector-img2{
+  position: relative;
+  bottom: 80px;
+}
+
+img {
+  border-radius: 10%;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  padding: 10px;
+}
+
+hr
+{
+size:1;
+border-style:dotted none none;
+border-color: grey;
+border-width: 4px;
+width:auto;
+}
+
+.btn{
+  text-shadow: 2px 2px 3px;
+  position: sticky;
+  bottom: 30px;
+  left: 1400px;
+}
+
+footer{
+  background-color: var(--nano);
+  text-align: center;
+  place-items:center;
+  height: 30px;
+}
