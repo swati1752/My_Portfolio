@@ -85,14 +85,14 @@ h2{
   }
 }
 
-/* @media (max-width: 726px)
+@media (max-width: 726px)
 {
   .container{
     display: block;
     place-items: center;
     place-content: center
   }
-} */
+} 
 
 td , a{
   margin: 40px;
